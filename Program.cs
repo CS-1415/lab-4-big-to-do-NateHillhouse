@@ -193,7 +193,7 @@ class Task
     public void ToggleStatus()
     {
         if (Status == CompletionStatus.Done) Status = CompletionStatus.InProgress;
-        if (Status == CompletionStatus.InProgress) Status = CompletionStatus.Done;
+        else if (Status == CompletionStatus.InProgress) Status = CompletionStatus.Done;
     }
 }
 enum CompletionStatus {Done, InProgress}
