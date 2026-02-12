@@ -1,0 +1,14 @@
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\bin\Debug\net9.0\lab-4-BigToDoList.exe
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\bin\Debug\net9.0\lab-4-BigToDoList.deps.json
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\bin\Debug\net9.0\lab-4-BigToDoList.runtimeconfig.json
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\bin\Debug\net9.0\lab-4-BigToDoList.dll
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\bin\Debug\net9.0\lab-4-BigToDoList.pdb
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.AssemblyInfoInputs.cache
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.AssemblyInfo.cs
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.csproj.CoreCompileInputs.cache
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.dll
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\refint\lab-4-BigToDoList.dll
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.pdb
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\lab-4-BigToDoList.genruntimeconfig.cache
+C:\Users\nhill_mliw72r\Documents\Code_Projects\my-code-dir\lab-4-BigToDoList\obj\Debug\net9.0\ref\lab-4-BigToDoList.dll
