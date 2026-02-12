@@ -43,6 +43,7 @@
             Console.WriteLine(MakeRow(i));
         }
         DisplayBar();
+        
     }
 
     public void DisplayHelp() {
@@ -107,6 +108,7 @@
                     _tasks.DeleteSelected();
                     break;
                 default:
+                _insertMode = false;
                     break;
             }
         }
@@ -141,28 +143,33 @@ class TodoList
     public void Insert(string Title)
     {
         TaskList.Add(TaskList.Count(), new Task(Title));
-        Number ++;
+        CurrentTask = TaskList[Number];
     }
     public void SelectNext()
     {
-        if (!(TaskList.Count() >= Number ++)) Number ++; 
+        if (TaskList.Count() > Number + 1) Number ++; 
         CurrentTask = TaskList[Number];
     }
     public void SelectPrevious()
     {
-        if (!(TaskList.Count() >= Number ++)) Number --;
+        if (Number - 1 >= 0) Number --;
         CurrentTask = TaskList[Number];
     }
     public void SwapWithNext()
     {
-        if (TaskList.Count() > Number++) 
+        if (TaskList.Count() > Number+1) 
         {
             (TaskList[Number], TaskList[Number+1]) = (TaskList[Number+1], TaskList[Number]);
+            Number ++;
         }
     }   
     public void SwapWithPrevious()
     {
-     if (TaskList.Count() > Number--) (TaskList[Number], TaskList[Number-1]) = (TaskList[Number-1], TaskList[Number]);   
+     if (0 <= Number-1) 
+     {
+        (TaskList[Number], TaskList[Number-1]) = (TaskList[Number-1], TaskList[Number]); 
+        Number --;
+     }
     }
     public void DeleteSelected()
     {
@@ -181,6 +188,7 @@ class Task
     public Task(string _title)
     {
         Title = _title;
+        Status = CompletionStatus.InProgress;
     }
     public void ToggleStatus()
     {
