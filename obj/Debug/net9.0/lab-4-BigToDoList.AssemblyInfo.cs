@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-4-BigToDoList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ae24c16a1bb4024215058956f3740cfda162f5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faa66b63f68ba53001d76e841a440d2070c1f887")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-4-BigToDoList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-4-BigToDoList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

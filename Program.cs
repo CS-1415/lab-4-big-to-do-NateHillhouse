@@ -173,10 +173,14 @@ class TodoList
     }
     public void DeleteSelected()
     {
-        TaskList.Remove(Number);
-        for (int i = Number+1; i < TaskList.Count(); i++)
+        //TaskList.Remove(Number);
+        if (TaskList.Count > 1 && Number < TaskList.Count()-1) for (int i = Number; i < TaskList.Count()-1; i++) TaskList[i] = TaskList[i+1];
+        TaskList.Remove(TaskList.Count()-1);
+        if (TaskList.Count() > 0 && Number < TaskList.Count()-1) CurrentTask = TaskList[Number];
+        else if (TaskList.Count() > 0) 
         {
-            TaskList[i].Equals(Number--);
+            CurrentTask = TaskList[Number-1];
+            Number --;
         }
     }
 }
